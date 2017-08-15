@@ -18,5 +18,4 @@ public class schedule {
     public void reportCurrentTime(){
         log.info("The current time is now {}", dateFormat.format(new Date()));
     }
-
 }
