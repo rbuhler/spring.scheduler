@@ -1,1 +1,1 @@
-# spring.scheduller
+# spring.scheduler
