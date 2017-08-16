@@ -23,7 +23,7 @@ public class schedulerController {
         LogEntity logEntity = new LogEntity();
 
         logEntity.setDateTime("2017");
-        logEntity.setStatus("");
+        logEntity.setStatus(status);
         logEntityRepository.save(logEntity);
 
         return "Saved";
